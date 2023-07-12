@@ -23,7 +23,7 @@ git clone https://github.com/seu-usuario/seu-projeto.git
 cd seu-projeto
 ```
 
-### 4. Configuração do Vagr`nt
+### 4. Configuração do Vagrant
 
 Edite o arquivo Vagrantfile e faça as configurações necessárias. O exemplo abaixo mostra a configuração padrão utilizada neste projeto:
 
@@ -72,3 +72,4 @@ Ao concluir os passos acima, você terá uma máquina virtual Ubuntu Server 22.0
 
 Certifique-se de ajustar as configurações do Vagrant e do VirtualBox de acordo com suas preferências e requisitos do projeto.
 
+Para mais informações das configurações do **Vagrantfile** acesse: [Vagrantfile personalização](Vagrantfile-personalizacao.md)

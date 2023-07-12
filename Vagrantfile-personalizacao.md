@@ -34,7 +34,7 @@ config.vm.provider "virtualbox" do |vb|
 end
 ```
 
-Essa configuração define o hardware da máquina virtual. No exemplo acima, a máquina virtual terá 1024 MB de memória ('vb.memory') e 1 CPU ('vb.cpus'). O valor dessas configurações pode ser ajustado conforme necessário para atender aos requisitos do seu projeto. A opção 'vb.name' especifica o nome da máquina virtual.
+Essa configuração define o hardware da máquina virtual. No exemplo acima, a máquina virtual terá 1024 MB de memória (**vb.memory**) e 1 CPU (**vb.cpus**). O valor dessas configurações pode ser ajustado conforme necessário para atender aos requisitos do seu projeto. A opção **vb.name** especifica o nome da máquina virtual.
 
 ### Configuração de pasta compartilhada
 ```ruby
@@ -49,7 +49,7 @@ O Vagrantfile pode ser personalizado de várias maneiras para atender às suas n
 
 Personalizar as configurações da caixa (box): Você pode escolher uma caixa diferente, como uma versão mais recente do Ubuntu Server, ou até mesmo uma distribuição Linux diferente, conforme necessário. Consulte o diretório de caixas do Vagrant (Vagrant Box Catalog) para encontrar outras opções disponíveis.
 
-Ajustar as configurações de hardware: Dependendo dos requisitos do seu projeto, você pode aumentar ou diminuir a quantidade de memória ('vb.memory') e o número de CPUs ('vb.cpus') alocados para a máquina virtual.
+Ajustar as configurações de hardware: Dependendo dos requisitos do seu projeto, você pode aumentar ou diminuir a quantidade de memória (**vb.memory**) e o número de CPUs (**vb.cpus**) alocados para a máquina virtual.
 
 Configurar redes adicionais: Além da rede pública, o Vagrant suporta várias opções de rede, como redes privadas e redes internas. Consulte a documentação do Vagrant para obter mais informações sobre como configurar redes adicionais.
 
@@ -57,7 +57,7 @@ Adicionar provisionamento: O Vagrant permite adicionar scripts de provisionament
 
 Configurar plugins: O Vagrant tem uma grande variedade de plugins disponíveis que podem estender suas funcionalidades. Você pode explorar os plugins disponíveis e adicionar aqueles que são relevantes para o seu projeto.
 
-Lembre-se de executar o comando 'vagrant reload' após fazer alterações no Vagrantfile para aplicar as alterações na máquina virtual.
+Lembre-se de executar o comando **vagrant reload** após fazer alterações no Vagrantfile para aplicar as alterações na máquina virtual.
 
 ### Conclusão
 
